@@ -15,3 +15,8 @@ Colours
 #56585A - Darker Grey
 
 #002D47 - Darkest Blue
+
+Info for Later Use
+
+072-665-5885
+info@sscomputers.co.za 
