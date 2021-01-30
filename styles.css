@@ -23,6 +23,7 @@ main {
     grid-template-rows: 15vh auto auto auto auto;
     height: 100vh;
     row-gap: 1em;
+    column-gap: 1em;
 }
 
 .topbar {
@@ -80,8 +81,7 @@ button {
     font-size: x-large;
     font-family: 'Oswald';
     font-weight: 500;
-    background-color: rgba(233, 239, 243, 0.0);  
-    backdrop-filter: blur(5px);
+    background: none;
 }
 
 .profile {
@@ -89,12 +89,12 @@ button {
     height: auto;
     border-radius: 0.5em;
     padding: 2em;
-    max-width: 16em;
     justify-self: center;
     overflow: auto;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     background-color: rgba(233, 239, 243, .65);  
     backdrop-filter: blur(5px);
+    scrollbar-width: none;
     
 }
 .profile1 {
@@ -116,6 +116,7 @@ button {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 0.5em;
     background-color: rgba(233, 239, 243, .65);  
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     font-style: oblique;
 }
@@ -144,3 +145,4 @@ button {
     box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.28);
     transition: 250ms;
 }
+
