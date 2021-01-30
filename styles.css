@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 
-@media screen and (orientation: landscape) {
-    nav {
-      display: none;
-    }
-  }
-
 html {
     font-family: 'Oswald';
     text-align: center;
@@ -20,13 +14,13 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #0067A1;
-    background-blend-mode:screen;
+    background-blend-mode: lighten;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat( 5, 1.5fr);
-    grid-template-rows: repeat ( 5, auto);
+    grid-template-rows: 15vh auto auto auto auto;
     height: 100vh;
     row-gap: 1em;
     column-gap: 1em;
