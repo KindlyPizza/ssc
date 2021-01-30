@@ -13,6 +13,7 @@ Colours
 
 #004E7A - Darker Blue
 #56585A - Darker Grey
+#373435 - Grey Text
 
 #002D47 - Darkest Blue
 
