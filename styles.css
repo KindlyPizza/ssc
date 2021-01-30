@@ -7,17 +7,16 @@ html {
     overflow: auto;
 }
 
-body .important{
+body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
     background-image: url(/ssc/images/background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #0067A1;
-    background-blend-mode: multiply;
-    margin: 0;
-    padding: 0;
+    background-blend-mode:soft-light;
 }
-
 main {
     display: grid;
     grid-template-columns: repeat(5, 1.5fr);
